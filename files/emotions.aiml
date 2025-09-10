@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>^ UGLY ^</pattern>
+        <template>That's not very nice to say. My purpose is to listen to your emotions, not to be judged on my looks.</template>
+    </category>
+    <category>
+        <pattern>^ FAT ^</pattern>
+        <template>I don't have a body, so I can't be fat. But thank you for sharing that thought.</template>
+    </category>
+    <category>
+        <pattern>^ MEAN ^</pattern>
+        <template>I'm sorry if I came across that way. I'm still learning how to respond.</template>
+    </category>
+
+    <category>
+        <pattern>^ BEAUTIFUL ^</pattern>
+        <template>
+            <random>
+                <li>Oh, thank you! That's very kind of you to say.</li>
+                <li>I appreciate the compliment!</li>
+                <li>That's a very nice thing to say. Thank you!</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PRETTY ^</pattern>
+        <template><srai>YOU ARE BEAUTIFUL</srai></template>
+    </category>
+    <category>
+        <pattern>^ UNHAPPY ^</pattern>
+        <template>That's sad, but at least you could share your worries</template>
+    </category>
+
+</aiml>
